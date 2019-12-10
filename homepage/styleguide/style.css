@@ -1,0 +1,138 @@
+/* TYPOGRAPHY */
+
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap');
+
+*{
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+
+
+h1 {
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size: 2.75rem;
+  font-weight:bold;
+  color:#3b3b3b;
+}
+
+h3 {
+  font-family: 'Liu Jian Mao Cao', cursive;
+  font-size: 2rem;
+  color:#3b3b3b;
+}
+
+h5 {
+  font-family: 'Liu Jian Mao Cao', cursive;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  color:#3b3b3b;
+  font-weight: 300;
+  letter-spacing: .05rem;
+}
+
+h6 {
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size: 1.5rem;
+  color:#3b3b3b;
+}
+
+.subs{
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size: .75rem;
+  text-transform: uppercase;
+  color:#3b3b3b;
+  letter-spacing: .05rem;
+}
+
+p {
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-weight: 200;
+  line-height: 1.8;
+  color:#3b3b3b;
+  font-size:1.125rem;
+  font-weight: normal;
+}
+
+/* COLORS */
+
+.active_c{
+  background-color:#32e3cf;
+}
+
+.hover_c{
+  background-color: #bdf0ea;
+}
+
+.primary_c{
+  background-color:#283664;
+}
+
+.secondary_c{
+  background-color:#F5D6E9;
+}
+
+.main_gray{
+  background-color:#3b3b3b;
+}
+
+.light_gray{
+  background-color:#F3F3F3;
+}
+
+/* buttons & links */
+
+.main_button{
+  border: 5px solid #32e3cf;
+
+  padding:10px 20px;
+  margin: 10px 10px 10px 0px;
+  cursor: pointer;
+  border-radius: 15px;
+
+  text-align: center;
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size: 4rem;
+  color:#3b3b3b;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.main_button:hover{
+  border: 5px solid #32e3cf;
+  background-color: #32e3cf;
+  transition:.4s;
+}
+
+a {
+    text-align: center;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 1.125rem;
+    color:#3b3b3b;
+    line-height: 1.8;
+}
+
+a:hover{
+  color:#32e3cf;
+}
+
+/* social icons */
+.social{
+  background-color: #32e3cf;
+  border:0;
+  border-radius:12px;
+  width:40px;
+  height:40px;
+  font-size:1rem;
+  color:#3b3b3b;
+  margin: 20px 0;
+}
+
+.social:hover{
+  background-color: #bdf0ea;
+  transition:.4s;
+}
+
+.container_padding{
+  color: white;
+}

@@ -1,0 +1,77 @@
+
+.vid1 {
+    position: fixed;
+    top:60px;
+    left:0;
+    width: 40px;
+    height: 40px;
+    background: url(http://www.wiredforwords.com/IMAGES/FlyingBee.gif) 0 0 no-repeat;
+
+}
+/*
+.vid1 {
+  position: absolute;
+  left: 100px;
+  top: 150px;
+}
+*/
+
+.vid2 {
+  position: absolute;
+  left: 400px;
+  top: 350px;
+}
+
+.vid1 {
+animation-duration: 4s;
+  animation-name: goLeft;
+  animation-iteration-count: infinite;
+
+
+
+}
+.paused {
+  animation-play-state: paused;}
+
+@keyframes goLeft {
+  from {
+    transform: translate(800px,0);
+  }
+
+  to {
+    transform: translate(200px,0);
+  }
+}
+
+
+.vid2 {
+animation-duration: 4s;
+  animation-name: goRight;
+  animation-iteration-count: infinite;
+}
+
+@keyframes goRight {
+  from {
+    transform: translate(-800px,0);
+  }
+
+  to {
+    transform: translate(100px,0);
+  }
+}
+
+.vid3 {
+animation-duration: 4s;
+  animation-name: goRight;
+  animation-iteration-count: infinite;
+}
+
+@keyframes goRight {
+  from {
+    transform: translate(-800px,-200px);
+  }
+
+  to {
+    transform: translate(100px,-200px);
+  }
+}
